@@ -1,12 +1,12 @@
 import './App.css';
 import NavBar from './components/NavBar';
-import Alert from './components/Alert';
+import ItemListContainer from './components/ItemListContainer';
 
 const App = () => {
     return (
         <>
         <NavBar />
-        <Alert />
+        <ItemListContainer text={"Productos"}/>
         </>
         
     )
